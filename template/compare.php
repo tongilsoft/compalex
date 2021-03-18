@@ -3,10 +3,19 @@
 <head>
     <meta charset="utf-8">
     <title>COMPALEX - database schema compare tool</title>
+    <!-- 
+    Was not loading js files
     <script src="/public/js/jquery.min.js"></script>
-    <script src="/public/js/functional.js"></script>
+    <script src="/public/js/functional.js"></script> 
+    Now it is loading them
+    -->
+    <script src="<?php echo $_SERVER['HTTP_REFERER']."/compalex/public/js/jquery.min.js"?>"></script>
+    <script src="<?php echo $_SERVER['HTTP_REFERER']."/compalex/public/js/functional.js"?>"></script>
     <style type="text/css" media="all">
-        @import url("/public/css/style.css");
+        /* Was not loading style.css file */
+        /* @import url("/public/css/style.css"); */
+        /* Now it is working */
+        @import url("<?php echo $_SERVER['HTTP_REFERER']."/compalex/public/css/style.css"?>");
     </style>
 </head>
 

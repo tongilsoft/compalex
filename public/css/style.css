@@ -11,6 +11,11 @@ td ul li {
     max-width: 450px;
 }
 
+td ul li span {
+    word-wrap: break-word;
+    word-break: normal;
+}
+
 tr.header td {
     border-bottom: 1px solid grey;
 }
@@ -119,8 +124,8 @@ h2.no-records-found u {
 }
 
 .compare-database-block {
-    width: 60%;
-    margin-left: 20%;
+    width: 90%;
+    margin-left: 5%;
 }
 
 iframe {
