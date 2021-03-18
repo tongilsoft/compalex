@@ -101,15 +101,15 @@ If you prefer use Compalex as PHP script please read instruction bellow.
 Compalex is only supported by PHP 5.4 and up with PDO extension.
 
 ## Installation
-
-	$ git clone https://github.com/dlevsha/compalex.git
-	$ cd compalex
-
+- Clone repository available in `https://github.com/dlevsha/compalex.git`
+- Enter to the new created directory `compalex`
 - Create a folder named `local-config` to store the configuration file
 - Make a copy of the configuration file inside of `local-config`
 - Open `local-config/.environment` with your favorite editor. 
 - For this example we will use vim: you'll see configuration params.
 ```bash
+  $ git clone https://github.com/dlevsha/compalex.git
+	$ cd compalex
   $ mkdir local-config
   $ cp .environment local-config/.environment
   $ vim local-config/.environment
