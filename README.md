@@ -109,7 +109,7 @@ Compalex is only supported by PHP 5.4 and up with PDO extension.
 - For this example we will use vim: you'll see configuration params.
 ```bash
   $ git clone https://github.com/dlevsha/compalex.git
-	$ cd compalex
+  $ cd compalex
   $ mkdir local-config
   $ cp .environment local-config/.environment
   $ vim local-config/.environment
