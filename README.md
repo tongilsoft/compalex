@@ -104,8 +104,20 @@ Compalex is only supported by PHP 5.4 and up with PDO extension.
 
 	$ git clone https://github.com/dlevsha/compalex.git
 	$ cd compalex
-	
-Open `.environment`. You'll see configuration params
+
+Create a folder named `local-config` to store the configuration file
+  $ mkdir local-config
+
+Make a copy of the configuration file inside of `local-config`
+  $ cp .environment local-config/.environment
+
+Open `local-config/.environment` with your favorite editor. 
+For this example we will use vim: you'll see configuration params.
+
+  $ vim local-config/.environment
+
+Modify what you need according to instructions below and save changes.
+Impalex will read configuration params from `local-config/.environment`
 
 ```ini
 [ Main settings ]
